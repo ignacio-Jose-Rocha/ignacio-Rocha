@@ -61,6 +61,15 @@ const projectsData = [
     image: "https://i.imgur.com/5Lbz8Od.png",
     github: "ignacio-Jose-Rocha/gimFront",
     url: "https://github.com/ignacio-Jose-Rocha/gimFront"
+  },
+    {
+    id: 8,
+    title: "Clinica medicus",
+    description: "Sitio web full-stack para clinica medicus.",
+    technologies: ["React", "Node.js", "postgre","jwt","nodemailer","],
+    image: "https://imgur.com/Sn3Hk6Q",
+    github: "ignacio-Jose-Rocha/medicus",
+    url: "https://github.com/ignacio-Jose-Rocha/medicus"
   }
 ];
 
