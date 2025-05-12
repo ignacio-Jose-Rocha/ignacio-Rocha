@@ -62,15 +62,17 @@ const projectsData = [
     github: "ignacio-Jose-Rocha/gimFront",
     url: "https://github.com/ignacio-Jose-Rocha/gimFront"
   },
-    {
-    id: 8,
-    title: "Clinica medicus",
-    description: "Sitio web full-stack para clinica medicus.",
-    technologies: ["React", "Node.js", "postgre","jwt","nodemailer"],
-    image: "https://i.imgur.com/Sn3Hk6Q.png",
-    github: "ignacio-Jose-Rocha/medicus",
-    url: "https://github.com/ignacio-Jose-Rocha/medicus"
-  }
+{
+  id: 8,
+  title: "Clinica medicus",
+  description: "Sitio web full-stack para clinica medicus.",
+  technologies: ["React", "Node.js", "PostgreSQL", "JWT", "Nodemailer"],
+  image: "https://i.imgur.com/Sn3Hk6Q.png",
+  github: "ignacio-Jose-Rocha/medicus",
+  url: "https://github.com/ignacio-Jose-Rocha/medicus",
+  web: "https://medicus-clinica.vercel.app/login"
+}
+
 ];
 
 export default projectsData;
