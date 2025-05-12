@@ -66,7 +66,7 @@ const projectsData = [
     id: 8,
     title: "Clinica medicus",
     description: "Sitio web full-stack para clinica medicus.",
-    technologies: ["React", "Node.js", "postgre","jwt","nodemailer","],
+    technologies: ["React", "Node.js", "postgre","jwt","nodemailer"],
     image: "https://imgur.com/Sn3Hk6Q",
     github: "ignacio-Jose-Rocha/medicus",
     url: "https://github.com/ignacio-Jose-Rocha/medicus"
