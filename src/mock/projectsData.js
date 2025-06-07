@@ -1,6 +1,16 @@
 const projectsData = [
   {
     id: 1,
+    title: "Academia For IT - Agenda Simple",
+    description: "Aplicación web de agenda simple y funcional desarrollada con tecnologías modernas. Permite gestionar tareas y eventos de manera intuitiva.",
+    technologies: ["React", "JavaScript", "CSS", "Vercel"],
+    image: "https://i.imgur.com/h5EKdcH.png",
+    github: "ignacio-Jose-Rocha/academiaForIT",
+    url: "https://github.com/ignacio-Jose-Rocha/academiaForIT",
+    web: "https://academia-for-it.vercel.app/"
+  },
+  {
+    id: 2,
     title: "El Rincón del Vino (E-commerce)",
     description: "Proyecto Final Laboratorio 4 - Desarrollo de una aplicación web full-stack para ventas de vinos.",
     technologies: ["React", "Node.js", "MongoDB"],
@@ -9,7 +19,7 @@ const projectsData = [
     url: "https://github.com/CodeStrong2023/404notFound-4sTP"
   },
   {
-    id: 2,
+    id: 3,
     title: "Sitio Web Colegio La Rioja",
     description: "Proyecto de Pasantía - Desarrollo de un sitio web funcional para una institución educativa.",
     technologies: ["HTML", "CSS", "JavaScript"],
@@ -18,7 +28,7 @@ const projectsData = [
     url: "https://github.com/DiegoRafaelRamosLlanos/tecnicoIndd/tree/ignacio"
   },
   {
-    id: 3,
+    id: 4,
     title: "Sistema de Gestión de Reclamos",
     description: "Sistema web para registrar y resolver reclamos.",
     technologies: ["React", "Express", "MySQL"],
@@ -27,7 +37,7 @@ const projectsData = [
     url: "https://github.com/ignacio-Jose-Rocha/programacion3"
   },
   {
-    id: 4,
+    id: 5,
     title: "Chat Bot UTN",
     description: "Bot creado para la UTN con HTML, CSS y JavaScript.",
     technologies: ["HTML", "CSS", "JavaScript"],
@@ -36,7 +46,7 @@ const projectsData = [
     url: "https://github.com/ignacio-Jose-Rocha/chatBotEnvioMailUTN"
   },
   {
-    id: 5,
+    id: 6,
     title: "Visión Películas",
     description: "Proyecto para Alkemy usando React - Plataforma de películas.",
     technologies: ["React", "API Rest", "TailwindCSS"],
@@ -45,7 +55,7 @@ const projectsData = [
     url: "https://github.com/ignacio-Jose-Rocha/vision-peliculas"
   },
   {
-    id: 6,
+    id: 7,
     title: "API Rick y Morty",
     description: "Página hecha en React sobre la serie Rick y Morty consumiendo API.",
     technologies: ["React", "API", "CSS Modules"],
@@ -54,7 +64,7 @@ const projectsData = [
     url: "https://github.com/ignacio-Jose-Rocha/api-rick-morty"
   },
   {
-    id: 7,
+    id: 8,
     title: "Gimnasio Center Fit",
     description: "Sitio web full-stack para gimnasio con sistema de reservas.",
     technologies: ["React", "Node.js", "MongoDB"],
@@ -62,16 +72,16 @@ const projectsData = [
     github: "ignacio-Jose-Rocha/gimFront",
     url: "https://github.com/ignacio-Jose-Rocha/gimFront"
   },
-{
-  id: 8,
-  title: "Clinica medicus",
-  description: "Sitio web full-stack para clinica medicus.",
-  technologies: ["React", "Node.js", "PostgreSQL", "JWT", "Nodemailer"],
-  image: "https://i.imgur.com/Sn3Hk6Q.png",
-  github: "ignacio-Jose-Rocha/medicus",
-  url: "https://github.com/ignacio-Jose-Rocha/medicus",
-  web: "https://medicus-clinica.vercel.app/login"
-}
+  {
+    id: 9,
+    title: "Clinica medicus",
+    description: "Sitio web full-stack para clinica medicus.",
+    technologies: ["React", "Node.js", "PostgreSQL", "JWT", "Nodemailer"],
+    image: "https://i.imgur.com/Sn3Hk6Q.png",
+    github: "ignacio-Jose-Rocha/medicus",
+    url: "https://github.com/ignacio-Jose-Rocha/medicus",
+    web: "https://medicus-clinica.vercel.app/login"
+  }
 
 ];
 
