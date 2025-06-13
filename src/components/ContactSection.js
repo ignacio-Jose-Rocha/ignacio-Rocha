@@ -48,7 +48,7 @@ const ContactSection = () => {
         // Auto-cerrar el popup después de 5 segundos
         setTimeout(() => {
           setShowSuccessPopup(false);
-        }, 5000);
+        }, 5000000000);
       } else {
         throw new Error('Error al enviar el mensaje');
       }
