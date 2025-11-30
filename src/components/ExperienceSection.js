@@ -82,24 +82,26 @@ const ExperienceSection = () => {
                       </div>
                     </div>
 
-                    <div className="flex items-center justify-between pt-6 border-t border-gray-700/50">
-                      <a
-                        href={`https://${exp.url}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium transition-colors duration-300 group"
-                      >
-                        <svg className="w-4 h-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                        </svg>
-                        {exp.url}
-                      </a>
+                    {exp.url && (
+                      <div className="flex items-center justify-between pt-6 border-t border-gray-700/50">
+                        <a
+                          href={exp.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium transition-colors duration-300 group"
+                        >
+                          <svg className="w-4 h-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
+                            <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                          </svg>
+                          Ver sitio web
+                        </a>
 
-                      <div className="flex items-center space-x-2 text-gray-500 text-sm">
-                        <span>Ver proyecto</span>
-                        <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                        <div className="flex items-center space-x-2 text-gray-500 text-sm">
+                          <span>Proyecto activo</span>
+                          <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                        </div>
                       </div>
-                    </div>
+                    )}
                   </div>
                 </div>
               </div>
