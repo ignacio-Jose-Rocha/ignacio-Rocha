@@ -1,6 +1,18 @@
 const experienceData = [
   {
     id: 1,
+    position: "Soporte y Organización",
+    company: "OfficePlus Solutions",
+    period: "Abril 2024 – Diciembre 2024",
+    description: "Soporte técnico de la empresa y mantenimiento.",
+    responsibilities: [
+      "Soporte técnico especializado",
+      "Mantenimiento de sistemas",
+      "Organización de procesos técnicos"
+    ]
+  },
+  {
+    id: 2,
     position: "Desarrollador Full-Stack",
     company: "Gimnasio Center Fit",
     period: "Abril 2025 – Presente",

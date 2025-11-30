@@ -1,7 +1,7 @@
 const personalData = {
   name: "IGNACIO ROCHA",
   title: "Desarrollador de Software",
-  phone: "(54) 1125987142",
+  phone: "(54) 1172312162",
   email: "rochaignaciojose@gmail.com",
   location: "San Miguel, Buenos Aires",
   github: "github.com/ignacio-Jose-Rocha",

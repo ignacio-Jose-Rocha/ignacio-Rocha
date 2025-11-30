@@ -151,8 +151,8 @@ const EducationSection = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold gradient-text mb-2">1</h3>
-            <p className="text-gray-400">Título Completado</p>
+            <h3 className="text-2xl font-bold gradient-text mb-2">2</h3>
+            <p className="text-gray-400">Títulos Completados</p>
           </div>
 
           <div className="glass-card-dark p-6 text-center hover-lift">

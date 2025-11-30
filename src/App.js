@@ -35,22 +35,40 @@ const App = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -inset-10 opacity-50">
-          {[...Array(50)].map((_, i) => (
-            <div
-              key={i}
-              className="absolute animate-float"
-              style={{
-                left: `${Math.random() * 100}%`,
-                top: `${Math.random() * 100}%`,
-                animationDelay: `${Math.random() * 3}s`,
-                animationDuration: `${3 + Math.random() * 4}s`
-              }}
-            >
-              <div className="w-1 h-1 bg-blue-400 rounded-full opacity-60"></div>
-            </div>
-          ))}
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-purple-900/30 to-pink-900/20"></div>
+        
+        <div className="absolute -inset-10 opacity-40">
+          {[...Array(80)].map((_, i) => {
+            const size = Math.random() * 3 + 1;
+            const colors = ['bg-blue-400', 'bg-purple-400', 'bg-pink-400', 'bg-cyan-400', 'bg-indigo-400'];
+            const color = colors[Math.floor(Math.random() * colors.length)];
+            return (
+              <div
+                key={i}
+                className="absolute animate-particle-float"
+                style={{
+                  left: `${Math.random() * 100}%`,
+                  top: `${Math.random() * 100}%`,
+                  animationDelay: `${Math.random() * 4}s`,
+                  animationDuration: `${4 + Math.random() * 6}s`
+                }}
+              >
+                <div 
+                  className={`${color} rounded-full opacity-70 shadow-lg`}
+                  style={{
+                    width: `${size}px`,
+                    height: `${size}px`,
+                    boxShadow: `0 0 ${size * 4}px currentColor`
+                  }}
+                ></div>
+              </div>
+            );
+          })}
         </div>
+        
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+        <div className="absolute top-3/4 left-1/2 w-64 h-64 bg-pink-500/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '4s'}}></div>
       </div>
 
       <div className={`relative z-10 transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
@@ -61,7 +79,8 @@ const App = () => {
         </main>
       </div>
 
-      <div className="absolute inset-0 bg-gradient-to-t from-slate-900/50 to-transparent pointer-events-none"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-slate-900/20 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-blue-900/5 to-transparent pointer-events-none"></div>
     </div>
   );
 };
