@@ -22,7 +22,7 @@ const experienceData = [
       "Integración de gestión de usuarios",
       "Implementación de sistemas de reservas"
     ],
-    url: "gim-front.vercel.app"
+    url: "https://centerfit.vercel.app/"
   }
 ];
 

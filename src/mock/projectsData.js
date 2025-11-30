@@ -43,9 +43,10 @@ const projectsData = [
     title: "Gimnasio Center Fit",
     description: "Sitio web full-stack para gimnasio con sistema de reservas y gestión de membresías.",
     technologies: ["React", "Node.js", "MongoDB"],
-    image: "https://i.imgur.com/5Lbz8Od.png",
+    image: "https://i.ibb.co/HTdc5RyK/centerfit.png",
     github: "ignacio-Jose-Rocha/gimFront",
-    url: "https://github.com/ignacio-Jose-Rocha/gimFront"
+    url: "https://github.com/ignacio-Jose-Rocha/gimFront",
+    web: "https://centerfit.vercel.app/"
   },
   {
     id: 6,
