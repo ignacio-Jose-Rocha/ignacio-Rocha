@@ -90,8 +90,6 @@ const projectsData = [
     description: "Aplicación web para gestionar y controlar deudas personales de manera eficiente.",
     technologies: ["React", "JavaScript", "CSS"],
     image: "https://i.ibb.co/Zzc0mTf7/imagen.png",
-    github: "ignacio-Jose-Rocha/gestor-deudas",
-    url: "https://github.com/ignacio-Jose-Rocha/gestor-deudas",
     web: "https://gestor-deudas-lilac.vercel.app/"
   }
 ];
