@@ -83,6 +83,16 @@ const projectsData = [
     image: "https://i.imgur.com/0v9Bebt.png",
     github: "ignacio-Jose-Rocha/chatBotEnvioMailUTN",
     url: "https://github.com/ignacio-Jose-Rocha/chatBotEnvioMailUTN"
+  },
+  {
+    id: 10,
+    title: "Gestor de Deudas",
+    description: "Aplicación web para gestionar y controlar deudas personales de manera eficiente.",
+    technologies: ["React", "JavaScript", "CSS"],
+    image: "https://i.ibb.co/Zzc0mTf7/imagen.png",
+    github: "ignacio-Jose-Rocha/gestor-deudas",
+    url: "https://github.com/ignacio-Jose-Rocha/gestor-deudas",
+    web: "https://gestor-deudas-lilac.vercel.app/"
   }
 ];
 
